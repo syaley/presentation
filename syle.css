@@ -1,0 +1,38 @@
+body {
+    background: url(../présentation/asseth/SONIA\ RAHOU.png) center/cover fixed;
+}
+
+nav {
+    background-color: (transparent)
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    padding-right: 4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(52, 92, 135);
+}
+
+.présentation {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(52, 92, 135);
+    width: 45%;
+    justify-content: flex-end;
+    float: right;
+}
+@media screen and (max-width: 768px) 
+
+button {
+    border-radius: 20px;
+    background-color: rgb(52, 92, 135);
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+}

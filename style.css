@@ -1,0 +1,105 @@
+body {
+    background: url("assets/SONIA.png") center/cover fixed;
+}
+
+nav {
+    background-color: (transparent)
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    color: rgb(52, 92, 135);
+}
+
+li {
+    color: rgb(52, 92, 135);
+    width: 15em;
+}
+
+.container {
+    font-weight: bold;
+    color: rgb(52, 92, 135);
+    width: 45%;
+    justify-content: flex-end;
+    float: right;
+    margin-top: 7em;
+}
+
+.title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
+}
+
+.texte {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#cv_button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid rgb(52, 92, 135);
+    background-color: transparent;
+    color: rgb(52, 92, 135);
+    margin: 3em;
+    transition: backgrund-color 3s color 3s;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 768px) 
+
+//Formulaire de contact
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: none;
+}
+
+#contactForm{
+    font-weight: bold;
+    color: rgb(52, 92, 135);
+    width: 45%;
+    justify-content: flex-end;
+    float: right;
+    margin-top: 7em;
+}
+
+.logo_réseaux {
+    list-style-type: none;
+    justify-content: right;
+    color: rgb(52, 92, 135);
+  }

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Baskerville&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <ul>
+                <li><a href=".//index.html">ACCUEIL</a></li>
+                <li><a href=".//compétences.html">COMPÉTENCES</a></li>
+                <li><a href=".//contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <body>
+
+        <form id="contactForm" onsubmit="showResult(event)">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+
+        <div id="result"></div>
+
+        <script>
+            function showResult(event) {
+                event.preventDefault();
+
+                // Récupérer les valeurs saisies par l'utilisateur
+                var name = document.getElementById('name').value;
+                var email = document.getElementById('email').value;
+                var message = document.getElementById('message').value;
+
+                // Afficher les informations dans le message de résultat
+                var resultMessage = "Merci de l'intérêt que vous portez à mon profil. Je reviendrai vers vous très bientôt !"
+                document.getElementById('result').innerHTML = resultMessage;
+                document.getElementById('result').style.display = 'block';
+            }
+        </script>
+
+    </body>
+
+</html>
+</body>
